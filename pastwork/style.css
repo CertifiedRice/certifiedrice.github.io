@@ -3,6 +3,24 @@ body {
 }
 
 .title {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.aboutme_text {
+    color: white;
+    text-align: center;
+}
+
+.aboutme_p {
+    color: white;
+    text-align: center;
+}
+
+.technologies {
     color: white;
     text-align: center;
 }
