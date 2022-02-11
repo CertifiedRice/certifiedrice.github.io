@@ -10,6 +10,11 @@ body {
     color: white;
 }
 
+.text {
+  color: white;
+  text-align: center;
+}
+
 .aboutme_text {
     color: white;
     text-align: center;
