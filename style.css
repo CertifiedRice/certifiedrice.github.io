@@ -51,5 +51,5 @@ body {
   
   .topnav a.active {
     background-color: aqua;
-    color: white;
+    color: rgb(0, 0, 0);
   }
