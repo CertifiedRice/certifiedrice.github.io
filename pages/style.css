@@ -1,16 +1,3 @@
-body {
-    background-color: #121212;
-}
-
-.text {
-    color: #ffffff;
-}
-
-.contact {
-    color: white;
-    text-align: center;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
