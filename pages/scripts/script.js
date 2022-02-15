@@ -80,6 +80,8 @@ const getCommandOutput = (command) => {
         return commands.contact;
     } else if (command === "top") {
         return commands.top;
+    } else if (command === "clear") {
+        return location.reload();
     } else {
         return `Unknown command: <span class="cmd-text cmd-green">${command}</span>`;
     }
