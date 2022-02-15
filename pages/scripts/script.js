@@ -1,5 +1,5 @@
 const commands = { // commands
-    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages',
+    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages\nclear - clear the terminal',
     'whoami': 'Who am I?: My name is CertifiedRice and I am a passionate game developer and Front-End developer.',
     'contact': 'Twitter: @Certified_Rice , Discord: Certified Rice#8386, Github: CertifiedRice, Steam: certified_rice',
     'top': 'My top languages: Lua, C#, Java, Python, Javascript, and C/C++',
