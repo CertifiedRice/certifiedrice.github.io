@@ -1,9 +1,10 @@
 const commands = { // commands
-    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages\nclear - clear the terminal',
+    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages\nclear - clear the terminal\ncontributors - people who helped me make this website',
     'whoami': 'Who am I?: My name is CertifiedRice and I am a passionate game developer and Front-End developer.',
     'contact': 'Twitter: @Certified_Rice , Discord: Certified Rice#8386, Github: CertifiedRice, Steam: certified_rice',
     'top': 'My top languages: Lua, C#, Java, Python, Javascript, and C/C++',
-    'clear': 'Cleaers the terminal'
+    'clear': 'Cleaers the terminal',
+    'contributors': 'Opensource contributors for my website'
 }
 
 var commandMemory = [];
@@ -83,6 +84,10 @@ const getCommandOutput = (command) => {
         return commands.top;
     } else if (command === "clear") {
         return location.reload();
+    } else if (command === "contributors") {
+        return window.location = "https://certifiedrice.github.io/pages/contributors";
+    } else if (command === "rickroll") {
+        return window.location = "https://youtu.be/dQw4w9WgXcQ";
     } else {
         return `Unknown command: <span class="cmd-text cmd-green">${command}</span>`;
     }
