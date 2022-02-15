@@ -1,10 +1,13 @@
 const commands = { // commands
-    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages\nclear - clear the terminal\ncontributors - people who helped me make this website',
+    'help': 'whoami - About CertifiedRice\n' + 'contact - how to contact me!\n' + 'top - My top languages\nclear - clear the terminal\ncontributors - people who helped me make this website\nexit - exit the terminal\nrickroll - rickroll the terminal\ngit - the source code of the website\nversion - the version of the website',
     'whoami': 'Who am I?: My name is CertifiedRice and I am a passionate game developer and Front-End developer.',
     'contact': 'Twitter: @Certified_Rice , Discord: Certified Rice#8386, Github: CertifiedRice, Steam: certified_rice',
     'top': 'My top languages: Lua, C#, Java, Python, Javascript, and C/C++',
     'clear': 'Cleaers the terminal',
-    'contributors': 'Opensource contributors for my website'
+    'contributors': 'Opensource contributors for my website',
+    'exit': 'closing RiceCmd.exe...',
+    'git': 'git!',
+    'version': 'RiceCmd.exe version 0.1.3 (work in progress)',
 }
 
 var commandMemory = [];
@@ -88,6 +91,12 @@ const getCommandOutput = (command) => {
         return window.location = "https://certifiedrice.github.io/pages/contributors";
     } else if (command === "rickroll") {
         return window.location = "https://youtu.be/dQw4w9WgXcQ";
+    } else if (command === "git") {
+        return window.location = "https://github.com/CertifiedRice/certifiedrice.github.io";
+    } else if (command === "exit") {
+        return commands.exit;
+    } else if (command === "version") {
+        return commands.version;
     } else {
         return `Unknown command: <span class="cmd-text cmd-green">${command}</span>`;
     }
