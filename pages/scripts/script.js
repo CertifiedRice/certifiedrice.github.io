@@ -55,7 +55,7 @@ const keypress = (key, action) => {
 const newTextarea = () => {
     var h = document.getElementsByClassName('cmd-textarea')[0];
     var j = document.createElement('span');
-    h.innerHTML += '<br /><span class="cmd-text cmd-yellow">💻 guest</span>@<span class="cmd-text cmd-magenta">CertifiedRice</span><br>';
+    h.innerHTML += '<br /><span class="cmd-text cmd-green">guest</span>@<span class="cmd-text cmd-cyan">CertifiedRice</span><br>';
     j.innerHTML = '❯ █'
     return h.appendChild(j);
 }
