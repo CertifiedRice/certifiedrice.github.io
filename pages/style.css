@@ -1,3 +1,7 @@
+body {
+  background-color: #121212;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #121212;
@@ -29,4 +33,102 @@
   .text {
     color: white;
     text-align: center;
+  }
+
+  /* my shell */
+  * {
+    font-family: "Open Sans", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5em;
+    padding: .3em;
+    color: #006b47;
+}
+
+#cmd-window {
+    width: 95%;
+    max-width: 682px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.cmd-topbar {
+    background-color: #1f222a;
+    width: 100%;
+    display: flex;
+}
+
+.cmd-topbar p {
+    line-height: 45px;
+    font-size: 14px;
+    color: #eee;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.cmd-close {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    margin: 12.5px;
+    background-color: #ff4848;
+    cursor: pointer;
+}
+
+.cmd-textarea {
+    display: block;
+    border: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 700 !important;
+    background-color: #2a2f3a;
+    color: #55aaff;
+    height: 450px;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.cmd-text {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .cmd-textarea a {
+    color: #02f77d;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .cmd-yellow {
+    color: #ffaa00;
+  }
+  
+  .cmd-magenta {
+    color: #ff007f;
+  }
+  
+  .cmd-green {
+    color: #02f77d;
+  }
+
+  .cmd-cyan {
+    color: cyan;
   }
