@@ -2,17 +2,6 @@ body {
     background-color: #121212;
 }
 
-.contact {
-    color: white;
-    text-align: center;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-  
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
