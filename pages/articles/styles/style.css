@@ -1,0 +1,58 @@
+body {
+    background-color: #121212;
+}
+
+.text {
+    color: white;
+}
+
+.align-center {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #121212;
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: aqua;
+    color: white;
+  }
+
+.butt {
+  border: 1px outset blue;
+  background-color: lightBlue;
+  height:110px;
+  width:355px;
+  cursor:pointer;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -175px;
+  color: white;
+  font-size: 2em;
+}
+
+.butt:hover {
+  background-color: cyan;
+  color:white;
+}
