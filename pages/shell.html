@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Certified_Rice - shell</title>
+      <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+      body {
+  background-color: #121212;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #121212;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: aqua;
+    color: white;
+  }
+
+  .text {
+    color: white;
+    text-align: center;
+  }
+
+  /* my shell */
+  * {
+    font-family: "Open Sans", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5em;
+    padding: .3em;
+    color: #006b47;
+}
+
+#cmd-window {
+    width: 95%;
+    max-width: 682px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.cmd-topbar {
+    background-color: #1f222a;
+    width: 100%;
+    display: flex;
+}
+
+.cmd-topbar p {
+    line-height: 45px;
+    font-size: 14px;
+    color: #eee;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.cmd-close {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    margin: 12.5px;
+    background-color: #ff4848;
+    cursor: pointer;
+}
+
+.cmd-textarea {
+    display: block;
+    border: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 700 !important;
+    background-color: #2a2f3a;
+    color: #55aaff;
+    height: 450px;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.cmd-text {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .cmd-textarea a {
+    color: #02f77d;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .cmd-yellow {
+    color: #ffaa00;
+  }
+  
+  .cmd-magenta {
+    color: #ff007f;
+  }
+  
+  .cmd-green {
+    color: #02f77d;
+  }
+
+  .cmd-cyan {
+    color: cyan;
+  }
+  </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="https://certifiedrice.github.io">Home</a>
+        <a href="https://certifiedrice.github.io/pages/contact.html">Contact</a>
+        <a href="https://certifiedrice.github.io/pastwork/pastwork.html">Pastwork</a>
+        <a href="https://certifiedrice.github.io/pages/blog/blog.html">Blog</a>
+        <a href="https://certifiedrice.github.io/pages/hire/hire.html">Hire</a>
+        <a href="https://github.com/CertifiedRice/certifiedrice.github.io"><i class="fa-brands fa-github"></i>&nbsp; Source</a>
+        <a href="https://certifiedrice.github.io/pages/shell.html" style="color: cyan;">RiceCmd.exe</a>
+        <a href="https://certifiedrice.github.io/pages/linktree.html">Linktree</a>
+        <a href="https://www.patreon.com/join/certifiedrice"><i class="fa-brands fa-patreon"></i>&nbsp; Support me!</a>
+      </div>
+
+    <h1 style="color: white; text-align: center;">RiceCmd.exe</h1>
+
+    <div id="cmd-window">
+        <header class="cmd-topbar">
+            <p>RiceCmd.exe</p><a class="cmd-close" href="https://certifiedrice.github.io/"></a>
+        </header>
+        <pre class="cmd-textarea">
+Enter <span class="cmd-text cmd-green">help</span> to see available commands!
+<span class="cmd-text cmd-green">RiceCmd.exe has no support for mobile.</span>
+<span class="cmd-text cmd-green">Certified_Rice's Terminal</span>
+
+<span class="cmd-text cmd-green">guest</span>@<span class="cmd-text cmd-cyan">CertifiedRice</span>
+<span id="textarea">❯ █</span>
+<span id="cmd-area"></span>
+    </pre>
+    </div>
+    <script src="scripts/script.js"></script>
+
+    <h1 style="color: white; text-align: center;">Terminal idea from <a href = "https://github.com/glaukiol1" ... attributes-list>glaukiol1</a> </h1>
+</body>
+
+</html>
