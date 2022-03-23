@@ -25,6 +25,10 @@ body {
     text-align: center;
 }
 
+.aboutme {
+  background-color:#121212;
+}
+
 .technologies {
     color: white;
     text-align: center;
@@ -54,4 +58,10 @@ body {
     color: rgb(0, 0, 0);
   }
 
-  
+  .white {
+    color: white;
+  }
+
+  .contact {
+    background-color: #121212;
+  }
