@@ -1,7 +1,7 @@
 ﻿# certifiedrice.github.io
 Certified_Rice's Portfolio and website
 
-Work in progress!
+New website in the works!!!
 
 # Contributing
 When contributing please read the Code of Conduct and follow the MIT license.
